@@ -1,5 +1,6 @@
 package com.feng.springboot;
 
-public @interface Phone {
+public interface Phone {
 
+	int getMax();
 }
